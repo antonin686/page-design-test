@@ -75,6 +75,10 @@ body {
 .header {
   background-color: #fff;
   padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar {
@@ -112,7 +116,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 9rem 0;
+  padding: 12rem 0;
 }
 
 .banner h1 {
